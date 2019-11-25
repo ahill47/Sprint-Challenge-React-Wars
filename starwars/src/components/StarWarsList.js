@@ -28,7 +28,7 @@ export default function StarWarsList() {
         <div>
             {starWarsCharacter.map((character) => {
               return (
-                // <Card>
+              
                 
                     <StarWarsCard
                     name={character.name}
@@ -41,7 +41,7 @@ export default function StarWarsList() {
                    
                     />
                    
-                // </Card>
+              
                
               )
                
